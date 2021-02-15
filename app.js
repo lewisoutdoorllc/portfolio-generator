@@ -74,6 +74,7 @@ if (!portfolioData.projects) {
   });
 };
 
+
 promptUser()
   .then(promptProject)
   .then(portfolioData => {
